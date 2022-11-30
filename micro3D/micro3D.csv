@@ -1,0 +1,35 @@
+"Source:","D:\Dropbox (Tesla Concursos)\Colaborações\Microscópio\micro3D\micro3D.sch"
+"Date:","21/04/2022 16:42:08"
+"Tool:","Eeschema (5.1.12)-1"
+"Generator:","D:\KiCAD\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","11"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MANUFACTURER","MAXIMUM_PACKAGE_HIEGHT","PARTREV","STANDARD"
+"","","A1","Pololu_Breakout_A4988","Driver_Motor:Pololu_Breakout_A4988","Module:Pololu_Breakout-16_15.2x20.3mm","https://www.pololu.com/product/2980/pictures","","","",""
+"","","A2","Arduino_Nano_Every","MCU_Module:Arduino_Nano_Every","Module:Arduino_Nano","https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf","","","",""
+"","","C1","100 uF/ 25 V","Device:CP","Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm","~","","","",""
+"","","C2","100 uF/ 25 V","Device:CP","Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm","~","","","",""
+"","","High1","Conn_01x06_Female","Connector:Conn_01x06_Female","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","","","",""
+"","","J1","encoder","Connector_Generic:Conn_01x05","Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical","~","","","",""
+"","","J2","motor de passo","Connector_Generic:Conn_01x04","Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical","~","","","",""
+"","","Low1","Conn_01x06_Female","Connector:Conn_01x06_Female","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","","","",""
+"","","P1","Power 24V","Connector_Generic:Conn_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","~","","","",""
+"","","P2","Power 5.5V","Connector_Generic:Conn_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","~","","","",""
+"","","U1","RASPBERRY_PI_3_MODEL_B+","micro3D-rescue:RASPBERRY_PI_3_MODEL_B+-RASPBERRY_PI_3_MODEL_B_","RASPBERRY_PI_3_MODEL_B_:MODULE_RASPBERRY_PI_3_MODEL_B+","","Raspberry Pi","18mm","1.0","Manufacturer Recommendations"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MANUFACTURER","MAXIMUM_PACKAGE_HIEGHT","PARTREV","STANDARD"
+"1","1","A1","Pololu_Breakout_A4988","Driver_Motor:Pololu_Breakout_A4988","Module:Pololu_Breakout-16_15.2x20.3mm","https://www.pololu.com/product/2980/pictures","","","",""
+"2","1","A2","Arduino_Nano_Every","MCU_Module:Arduino_Nano_Every","Module:Arduino_Nano","https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf","","","",""
+"3","2","C1, C2","100 uF/ 25 V","Device:CP","Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm","~","","","",""
+"4","2","High1, Low1","Conn_01x06_Female","Connector:Conn_01x06_Female","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","","","",""
+"5","1","J1","encoder","Connector_Generic:Conn_01x05","Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical","~","","","",""
+"6","1","J2","motor de passo","Connector_Generic:Conn_01x04","Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical","~","","","",""
+"7","1","P1","Power 24V","Connector_Generic:Conn_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","~","","","",""
+"8","1","P2","Power 5.5V","Connector_Generic:Conn_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","~","","","",""
+"9","1","U1","RASPBERRY_PI_3_MODEL_B+","micro3D-rescue:RASPBERRY_PI_3_MODEL_B+-RASPBERRY_PI_3_MODEL_B_","RASPBERRY_PI_3_MODEL_B_:MODULE_RASPBERRY_PI_3_MODEL_B+","","Raspberry Pi","18mm","1.0","Manufacturer Recommendations"
